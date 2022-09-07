@@ -4,7 +4,7 @@ JDK源码分析相关案例
 
 # JDK概念
 
-![image-20220906173900590](C:\Users\wangqiang\AppData\Roaming\Typora\typora-user-images\image-20220906173900590.png)
+![image-20220907120454219](/projectImg/jdk.png)
 
 ## JVM
 
@@ -91,7 +91,7 @@ OpenJDK，如 [Ubuntu](https://link.zhihu.com/?target=https%3A//help.ubuntu.com/
 
 # 集合类
 
-![image-20220906192137604](C:\Users\wangqiang\AppData\Roaming\Typora\typora-user-images\image-20220906192137604.png)
+![image-20220906192137604](/projectImg/collection.png)
 
 ## Iterable
 
@@ -162,7 +162,7 @@ public interface Iterable<T> {
 
 ### Iterator
 
-![image-20220907092943210](C:\Users\wangqiang\AppData\Roaming\Typora\typora-user-images\image-20220907092943210.png)
+![image-20220907092943210](projectImg/Iterator_Structure.png)
 
 - hashNext() 返回true 如果迭代具有更多的元素
 - next() 返回迭代中的下一个元素
@@ -221,7 +221,7 @@ public class IteratorTest {
 
 ### Spliterator
 
-![image-20220907101719184](C:\Users\wangqiang\AppData\Roaming\Typora\typora-user-images\image-20220907101719184.png)
+![image-20220907101719184](projectImg/Spliterator%20Structure.png)
 
 #### 嵌套类摘要
 
@@ -264,7 +264,7 @@ public class IteratorTest {
 
 以实现类为例
 
-![image-20220907115057809](C:\Users\wangqiang\AppData\Roaming\Typora\typora-user-images\image-20220907115057809.png)
+![image-20220907115057809](/projectImg/ArryatListSpliterator.png)
 
 ```java
  @Override
