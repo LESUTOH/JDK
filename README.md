@@ -369,3 +369,7 @@ public void forEachRemaining(Consumer<? super E>action){
 tryAdvance()数组的ModCount进行验证。
 
 forEachRemaining()，这里是一次性对所有数据进行操作。
+
+### ListIterator
+
+Iterator只为我们提供remove方法，如果要添加元素，可以使用ListIterator，它继承了Iterator，提供add与set操作。ListIterator是List的特有迭代器
